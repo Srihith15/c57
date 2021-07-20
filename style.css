@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+
+}
+.profile{
+    width:175px;
+    margin-bottom: 50px;
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    height:800px;
+    color:white;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    opacity:.83;
+    background:linear-gradient(aqua 0%,blue 100%);
+    display:table;
+    width:100%;
+    
+}
+.inner{
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+}
+.line{
+    width:60px;
+    height:6px;
+    background-color:black;
+    margin:8px auto;
+}
+#bio{
+    padding:50px;
+    font-size:40px;
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+}
